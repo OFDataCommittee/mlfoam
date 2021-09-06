@@ -14,4 +14,8 @@ Thoughts about ML committee for OpenFOAM
   - ML boundary condition
   - ML lagrangian models 
   - ML pressure-velocity coupling algorithm
-- Document / automate workflows for hyperparameter tuning.
+- Documentation 
+  - Tutorial cases: 
+    1. Learning a pressure field 
+    2. Learning a surface 
+  - Workflows for hyperparameter tuning.
