@@ -14,8 +14,13 @@ Thoughts about ML committee for OpenFOAM
   - ML boundary condition
   - ML lagrangian models 
   - ML pressure-velocity coupling algorithm
+- High-Performance Computing with OpenFOAM and libtorch
+  - Learning OpenFOAM geometric fields in parallel
+  - Offloading to the GPU 
+  - Global training vs weak NN conditions on process boundaries
 - Documentation 
-  - Tutorial cases: 
-    1. Learning a pressure field 
-    2. Learning a surface 
+  - Tutorial cases:
+    1. Learning a pressure field (internal field)
+    2. Learning a boundary field (BCs)
+    3. Learning a surface (sub-set of a geometric field)
   - Workflows for hyperparameter tuning.
