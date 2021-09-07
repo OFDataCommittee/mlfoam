@@ -4,7 +4,7 @@ Thoughts about ML committee for OpenFOAM
 
 ## Interoperability of OpenFOAM and other ML software
 
-## foamtorch: libtorch C++ API seamlessly integrated with OpenFOAM
+### foamtorch: libtorch C++ API seamlessly integrated with OpenFOAM
 
 - Simplified construction of libtorch Neural Networks (NN) in OpenFOAM. 
 - Enabled RTS for activation functions. 
