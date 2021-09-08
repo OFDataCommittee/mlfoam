@@ -31,7 +31,8 @@ This section lists several steps to achieve the objectives outlined before.
 - integration of the PyTorch C++ API [libtroch](https://pytorch.org/cppdocs/installing.html) with OpenFOAM; libtorch can be used to execute existing PyTorch ML models in OpenFOAM but also to implement the entire ML workflow in C++ (data-processing, training, hyperparameter tuning, ...) 
   - adjustment of the default OpenFOAM C++ standard, e.g, C++11 -> C++14
   - third-party install script to compile and set up libtorch
-  - simplify construction of standard neural network architectures
+  - simplify construction of standard neural network architectures with runtime-selectable components
+  - normalization of data as part of ML pipeline
   - adapters for OpenFOAM field data to work with
     - full geometric fields
     - boundary fields
@@ -53,30 +54,6 @@ This section lists several steps to achieve the objectives outlined before.
   - open-source research projects around OpenFOAM and ML
   - blog posts, presentations, videos
   - lecture material
-
-### libtorch C++ API seamlessly integrated with OpenFOAM
-
-- Simplified construction of libtorch Neural Networks (NN) in OpenFOAM. 
-- Enabled RTS for activation functions. 
-- Created a CI test pipeline for unit tests. 
-- Simplified learning of field data in OpenFOAM (libtorch - OpenFOAM adapters)
-  - Learning geometric fields in OpenFOAM.
-  - Learning near-boudary fields. 
-  - Learning field sub-sets.
-- Developed adapter class hierarchy roots for ML models in OpenFOAM
-  - ML boundary condition
-  - ML lagrangian models 
-  - ML pressure-velocity coupling algorithm
-- High-Performance Computing with OpenFOAM and libtorch
-  - Learning OpenFOAM geometric fields in parallel
-  - Offloading to the GPU 
-  - Global training vs weak NN conditions on process boundaries
-- Documentation 
-  - Tutorial cases:
-    1. Learning a pressure field (internal field)
-    2. Learning a boundary field (BCs)
-    3. Learning a surface (sub-set of a geometric field)
-  - Workflows for hyperparameter tuning.
 
 ## How to get in touch
 
