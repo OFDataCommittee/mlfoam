@@ -26,12 +26,40 @@ To find the most suitable structure, we will get in touch with the existing comm
 
 ## Technical roadmap
 
+This section lists several steps to achieve the objectives outlined before.
+
+- integration of the PyTorch C++ API [libtroch](https://pytorch.org/cppdocs/installing.html) with OpenFOAM; libtorch can be used to execute existing PyTorch ML models in OpenFOAM but also to implement the entire ML workflow in C++ (data-processing, training, hyperparameter tuning, ...) 
+  - adjustment of the default OpenFOAM C++ standard, e.g, C++11 -> C++14
+  - third-party install script to compile and set up libtorch
+  - simplify construction of standard neural network architectures
+  - adapters for OpenFOAM field data to work with
+    - full geometric fields
+    - boundary fields
+    - sub-sets of fields
+  - base class adapters with support for ML models, e.g.,
+    - boundary conditions
+    - Lagrangian models
+    - pressure-velocity coupling
+    - ...
+   - high-performance enabled computations with OpenFOAM and libtorch
+     - distributed training with geometric field data
+     - offload workloads to GPU(s)
+- provide an easy to use interface between OpenFOAM and Python; Python is the most widely used programming language for data analysis and ML; therefore, there should be an easy way to access OpenFOAM data in Python; there exist a number of Python packages to access OpenFOAM data, but for all of them at least one of the following points applies: only partial access, bad or missing documentation, overly complicated access to data, no active support, not applicable to large data (too slow/inefficient); a few options that could be explored are
+  - improve documentation of existing packages
+  - continue development of packages with partial access
+  - create Python bindings for selected OpenFOAM classes
+- compile and create documentation and tutorials
+  - OpenFOAM tutorials demonstrating how to enable ML with OpenFOAM
+  - open-source research projects around OpenFOAM and ML
+  - blog posts, presentations, videos
+  - lecture material
+
 ### libtorch C++ API seamlessly integrated with OpenFOAM
 
-- Simplified construction of Neural Networks (NN) in OpenFOAM. 
+- Simplified construction of libtorch Neural Networks (NN) in OpenFOAM. 
 - Enabled RTS for activation functions. 
 - Created a CI test pipeline for unit tests. 
-- Simplified learning of field data in OpenFOAM
+- Simplified learning of field data in OpenFOAM (libtorch - OpenFOAM adapters)
   - Learning geometric fields in OpenFOAM.
   - Learning near-boudary fields. 
   - Learning field sub-sets.
