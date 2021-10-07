@@ -14,19 +14,24 @@ This section briefly summarizes **why** we would like to initiate a technical co
   - accelerate developments and applications of machine learning (ML) with OpenFOAM
   - establish tested ML models as a natural element of CFD simulations to improve accuracy and/or speed
 
+## Potential committee members
+
+The following is an initial list of potential committee members and their roles in alphabetical order:
+
+- Andre Weiner, TU Braunschweig, GER **(chair)**
+- Dirk Gründing, TU Darmstadt, GER
+- Holger Marschall, TU Darmstadt, GER
+- Karthik Kashinath, Nvidia, USA (to be confirmed)
+- Neil Ashton, Amazon Web Services, UK
+- Tomislav Marić, TU Darmstadt, GER **(co-chair)**
+
 ## Potential workflow
 
 We would like to have short virtual meetings (max. 1h) every **two** month and meet in person, if possible, at the OpenFOAM conference and workshop. The bi-monthly meetings serve to update all members about the recent progress and to coordinate upcoming efforts.
 
-## Interaction with existing committees
-
-Data-driven modeling and in particular machine learning is going to touch every aspect of CFD with OpenFOAM and requires coordination with all other technical committees. We still need to clarify if our objectives and efforts might be embedded in an existing committee, or if a new committee should be formed that coordinates with existing ones whenever necessary. Our currently preferred mode would be to get in touch with the most suitable available committee when new developments are available (tutorials, models, numerics, ...), but to organize and bundle all efforts within a separate committee. Otherwise, transferable technical and practical knowledge might be too scattered.
-
-To find the most suitable structure, we will get in touch with the existing committees.
-
 ## Technical roadmap
 
-This section lists several steps to achieve the objectives outlined before.
+This section lists several steps to achieve the objectives outlined before. The list is mostly motived by the initiator's previous experience and presents by no means a comprehensive list of all possibilities for data-driven modeling in OpenFOAM.
 
 - integration of the PyTorch C++ API [libtroch](https://pytorch.org/cppdocs/installing.html) with OpenFOAM; libtorch can be used to execute existing PyTorch ML models in OpenFOAM but also to implement the entire ML workflow in C++ (data-processing, training, hyperparameter tuning, ...) 
   - adjustment of the default OpenFOAM C++ standard, e.g, C++11 -> C++14
@@ -45,21 +50,18 @@ This section lists several steps to achieve the objectives outlined before.
    - high-performance enabled computations with OpenFOAM and libtorch
      - distributed training with geometric field data
      - offload workloads to GPU(s)
-- provide an easy to use interface between OpenFOAM and Python; Python is the most widely used programming language for data analysis and ML; therefore, there should be an easy way to access OpenFOAM data in Python; there exist a number of Python packages to access OpenFOAM data, but for all of them at least one of the following points applies: only partial access, bad or missing documentation, overly complicated access to data, no active development or support, not applicable to large data (too slow/inefficient); a few options that could be explored are
+- provide an accessible interface between OpenFOAM and Python; Python is the most widely used programming language for data analysis and ML; therefore, there should be an easy way to access OpenFOAM data in Python; there exist a number of Python packages to access OpenFOAM data, but for all of them at least one of the following points applies: only partial access, bad or missing documentation, overly complicated access to data, no active development or support, not applicable to large data (too slow/inefficient); a few options that could be explored are
   - improve documentation of existing packages
   - continue development of packages with partial access
   - create Python bindings for selected OpenFOAM classes
 - compile and create documentation and tutorials
   - OpenFOAM tutorials demonstrating how to enable ML with OpenFOAM
-  - open-source research projects around OpenFOAM and ML
+  - open-source research projects and proposals around OpenFOAM and ML
   - blog posts, presentations, videos
   - lecture material
 
 ## How to get in touch
 
-The idea for the new technical committee is currently worked out and put forward by
+The idea for the new technical committee is currently worked out and put forward by Tomislav Marić and Andre Weiner. If you would like to contribute to this roadmap, provide additional ideas or spark up a discussion, the most direct way to get in touch would be to open an issue at:
 
-- Tomislav Marić, TU Darmstadt, Germany
-- Andre Weiner, TU Braunschweig, Germany
-
-If you would like to contribute to this roadmap, provide additional ideas or spark up a discussion, the most direct way to get in touch would be to open an issue in this repository.
+[https://github.com/AndreWeiner/mlfoam](https://github.com/AndreWeiner/mlfoam)
