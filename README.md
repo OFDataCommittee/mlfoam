@@ -21,7 +21,7 @@ The following is an initial list of potential committee members and their roles 
 - Andre Weiner, TU Braunschweig, GER **(chair)**
 - Dirk Gründing, TU Darmstadt, GER
 - Holger Marschall, TU Darmstadt, GER
-- Karthik Kashinath, Nvidia, USA (to be confirmed)
+- Karthik Kashinath, Nvidia, USA
 - Neil Ashton, Amazon Web Services, UK
 - Tomislav Marić, TU Darmstadt, GER **(co-chair)**
 
@@ -59,6 +59,7 @@ This section lists several steps to achieve the objectives outlined before. The 
   - open-source research projects and proposals around OpenFOAM and ML
   - blog posts, presentations, videos
   - lecture material
+- organize an OpenFOAM + ML hackathon once a year
 
 ## How to get in touch
 
