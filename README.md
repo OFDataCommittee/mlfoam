@@ -1,22 +1,40 @@
-# OpenFOAM technical committee on data-driven modeling
+# OpenFOAM special interest group on data-driven modeling
 
-This document represents a draft roadmap for the potential initiation of a technical committee on data-driven modeling with OpenFOAM. The structure of this documents mirrors the wiki pages of [existing technical committees](https://www.openfoam.com/governance/technical-committees).
+All activities of the official OpenFOAM special interest group (SIG) on data-driven modeling are currently organized in this repository.
 
-## Our objectives in a nutshell
+## Current activities
 
-This section briefly summarizes **why** we would like to initiate a technical committee on data-driven modeling. The technical roadmap details **how** we plan to achieve our objectives.
+### Collection of resources
+
+The following documents contain curated lists of contents related to data-driven modeling and OpenFOAM. You are very welcome to [extend these lists](CONTRIBUTING.md).
+
+- [research projects](research.md)
+- [software projects](software.md)
+- [educational material](education.md)
+
+### Committee meetings
+
+TBA
+
+## Our scope and objectives in a nutshell
+
+For us, data-driven modeling comprises a variety of different topics, some of which are listed below:
+- machine learning (ML): combining CFD and ML, e.g., using ML models in CFD or deriving ML models from CFD data
+- data science: analyzing CFD data to guide modeling and decision making
+- data engineering: aggregating, storing, and processing CFD data
+
+The following list briefly summarizes our current objectives. The technical roadmap below details **how** we plan to achieve our objectives.
 
 - short term objectives
   - reduce the technical barrier to get started with data-riven modeling in OpenFOAM to enable more people to include data-driven workflows in their applications or research
   - promote data-driven techniques that are already available in OpenFOAM, e.g., dynamic mode decomposition (DMD)
+  - promote third-party library for data-driven modeling that are based on or built for OpenFOAM
 - long term objectives
-  - aid the understanding of when to use data-driven models in the CFD workflow
-  - accelerate developments and applications of machine learning (ML) with OpenFOAM
-  - establish tested ML models as a natural element of CFD simulations to improve accuracy and/or speed
+  - aid the understanding of when and how to use data-driven modeling in the CFD workflow
+  - accelerate developments and applications of data-driven approaches around OpenFOAM
+  - establish tested data-driven techniques as a natural element of CFD simulations to improve accuracy and/or speed
 
-## Potential committee members
-
-The following is an initial list of potential committee members and their roles in alphabetical order:
+## Current committee members
 
 - Andre Weiner, TU Braunschweig, GER **(chair)**
 - Dirk Gründing, TU Darmstadt, GER
@@ -25,13 +43,15 @@ The following is an initial list of potential committee members and their roles 
 - Neil Ashton, Amazon Web Services, UK
 - Tomislav Marić, TU Darmstadt, GER **(co-chair)**
 
-## Potential workflow
+If you are interest in contributing to this SIG, feel free to get in touch.
 
-We would like to have short virtual meetings (max. 1h) every **two** month and meet in person, if possible, at the OpenFOAM conference and workshop. The bi-monthly meetings serve to update all members about the recent progress and to coordinate upcoming efforts.
+## Workflow
+
+We would like to have short virtual meetings (max. 1h) every **two** month and meet in person, if possible, at the OpenFOAM conference and workshop. The bi-monthly meetings serve to update all members about the recent progress and to coordinate upcoming efforts. Everybody is welcome to join our meetings.
 
 ## Technical roadmap
 
-This section lists several steps to achieve the objectives outlined before. The list is mostly motived by the initiator's previous experience and presents by no means a comprehensive list of all possibilities for data-driven modeling in OpenFOAM.
+This section lists several steps to achieve the objectives outlined before. The list is mostly motived by the initiator's previous experience and current projects, and presents by no means a comprehensive list of all possibilities for data-driven modeling with OpenFOAM.
 
 - integration of the PyTorch C++ API [libtroch](https://pytorch.org/cppdocs/installing.html) with OpenFOAM; libtorch can be used to execute existing PyTorch ML models in OpenFOAM but also to implement the entire ML workflow in C++ (data-processing, training, hyperparameter tuning, ...) 
   - adjustment of the default OpenFOAM C++ standard, e.g, C++11 -> C++14
@@ -63,6 +83,6 @@ This section lists several steps to achieve the objectives outlined before. The 
 
 ## How to get in touch
 
-The idea for the new technical committee is currently worked out and put forward by Tomislav Marić and Andre Weiner. If you would like to contribute to this roadmap, provide additional ideas or spark up a discussion, the most direct way to get in touch would be to open an issue at:
+If you would like to contribute to this repository, provide additional ideas or spark up a discussion, the most direct way to get in touch is to open an issue at:
 
 [https://github.com/AndreWeiner/mlfoam](https://github.com/AndreWeiner/mlfoam)
