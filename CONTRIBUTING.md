@@ -44,7 +44,7 @@ Ideally, software-centric projects should also provide:
 If you would like to share content via this platform, please consider the following steps:
 
 0. check the requirements listed above
-1. open a new issue in this repository, provide a link to the resource (in [education.md](https://github.com/AndreWeiner/mlfoam/blob/main/education.md), [research.md](https://github.com/AndreWeiner/mlfoam/blob/main/research.md) or [software.md](https://github.com/AndreWeiner/mlfoam/blob/main/software.md), and write a one-liner describing the content; check out the available resources if you need some inspiration
+1. open a new issue in this repository, provide a link to the resource (in [education.md](https://github.com/AndreWeiner/mlfoam/blob/main/education.md), [research.md](https://github.com/AndreWeiner/mlfoam/blob/main/research.md) or [software.md](https://github.com/AndreWeiner/mlfoam/blob/main/software.md)), and write a one-liner describing the content; check out the available resources if you need some inspiration
 2. we check the resource and add it to this repository
 
 **Thank you for sharing your work!**
