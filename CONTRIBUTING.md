@@ -44,7 +44,7 @@ Ideally, software-centric projects should also provide:
 If you would like to share content via this platform, please consider the following steps:
 
 0. check the requirements listed above
-1. open a new issue in this repository, provide a link to the resource, and write a one-liner describing the content; check out the available resources if you need some inspiration
+1. open a new issue in this repository, provide a link to the resource (in education.md, research.md or software.md), and write a one-liner describing the content; check out the available resources if you need some inspiration
 2. we check the resource and add it to this repository
 
 **Thank you for sharing your work!**
