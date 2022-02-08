@@ -14,7 +14,9 @@ The following documents contain curated lists of contents related to data-driven
 
 ### Committee meetings
 
-TBA
+Meetings take place about every two month. Get in touch if you would like to participate.
+
+- Feb 8 2022, online, [slides](https://andreweiner.github.io/reveal.js/ofml_tc_1.html#/)
 
 ## Our scope and objectives in a nutshell
 
