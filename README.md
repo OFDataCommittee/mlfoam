@@ -43,6 +43,7 @@ The following list briefly summarizes our current objectives. The technical road
 - Dirk Gründing, GER
 - Holger Marschall, TU Darmstadt, GER
 - Karthik Kashinath, Nvidia, USA
+- Kultamis Bercin, ESI-OpenCFD, UK
 - Neil Ashton, Amazon Web Services, UK
 - Tomislav Marić, TU Darmstadt, GER **(co-chair)**
 
@@ -88,4 +89,4 @@ This section lists several steps to achieve the objectives outlined before. The 
 
 If you would like to contribute to this repository, provide additional ideas or spark up a discussion, the most direct way to get in touch is to open an issue at:
 
-[https://github.com/AndreWeiner/mlfoam](https://github.com/AndreWeiner/mlfoam)
+[https://github.com/AndreWeiner/mlfoam](https://github.com/OFDataCommittee/mlfoam)
