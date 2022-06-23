@@ -14,10 +14,7 @@ The following documents contain curated lists of contents related to data-driven
 
 ### Committee meetings
 
-Meetings take place about every two month. Get in touch if you would like to participate.
-
-- Apr 5 2022, online, [slides](https://andreweiner.github.io/reveal.js/ofml_tc_2.html#/)
-- Feb 8 2022, online, [slides](https://andreweiner.github.io/reveal.js/ofml_tc_1.html#/)
+Meetings take place about every two month. Get in touch if you would like to participate. A list of previous and upcoming meetings and topics is available on the [SIG's wiki page](https://wiki.openfoam.com/Data_Driven_Modelling_Special_Interest_Group).
 
 ## Our scope and objectives in a nutshell
 
