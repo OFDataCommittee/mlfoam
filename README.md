@@ -34,18 +34,6 @@ The following list briefly summarizes our current objectives. The technical road
   - accelerate developments and applications of data-driven approaches around OpenFOAM
   - establish tested data-driven techniques as a natural element of CFD simulations to improve accuracy and/or speed
 
-## Current committee members
-
-- Andre Weiner, TU Braunschweig, GER **(chair)**
-- Dirk Gründing, GER
-- Holger Marschall, TU Darmstadt, GER
-- Karthik Kashinath, Nvidia, USA
-- Kultamis Bercin, ESI-OpenCFD, UK
-- Neil Ashton, Amazon Web Services, UK
-- Tomislav Marić, TU Darmstadt, GER **(co-chair)**
-
-If you are interest in contributing to this SIG, feel free to get in touch.
-
 ## Workflow
 
 We would like to have short virtual meetings (max. 1h) every **two** month and meet in person, if possible, at the OpenFOAM conference and workshop. The bi-monthly meetings serve to update all members about the recent progress and to coordinate upcoming efforts. Everybody is welcome to join our meetings.
